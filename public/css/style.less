@@ -1,8 +1,24 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body, html {
+    box-sizing: border-box;
+    color: #333;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
-a {
-  color: #00B7FF;
+.banner-full {
+    background-image: url('/img/thong-vo-332-unsplash.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    padding: 8em;
+    h1, h2 {
+        background: rgba( 255, 255, 255, .6 );
+        margin: 0;
+        padding: .5em 1em;
+        text-transform: uppercase;
+    }
 }
