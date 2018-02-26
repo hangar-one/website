@@ -10,6 +10,7 @@ html {
   background-image: url('/img/thong-vo-332-unsplash.jpg');
   background-size: cover;
   box-sizing: border-box;
+  color: #333;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
